@@ -9,7 +9,8 @@ checkimage
 
 使用示例
 ---------------
-
+    
+    #/root/xx.png为图片路径
     curl https://checkimage.querydata.org/api -F "image=@/root/xx.png"
 
 返回信息：
@@ -38,7 +39,7 @@ checkimage
     ]
 类型参考：
 
-    Drawing 和 Neutral：均为正常图片
+    Drawing和Neutral：均为正常图片
     hentai：二次元类型的暴露图片指数
     sexy：露点图片的指数
     porn：就是色情图片的指数
