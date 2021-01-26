@@ -38,10 +38,10 @@ checkimage
     ]
 类型参考：
 
-    #指数越高，越接近该类型
     Drawing 和 Neutral：均为正常图片
     hentai：二次元类型的暴露图片指数
     sexy：露点图片的指数
     porn：就是色情图片的指数
+图片指数越高，越接近该类型，最高的基本可以判定为该类型。
 
   [1]: https://github.com/infinitered/nsfwjs
