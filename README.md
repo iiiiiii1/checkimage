@@ -11,7 +11,7 @@ checkimage
 ---------------
     
     #/root/xx.png为图片路径
-    curl https://checkimage.querydata.org/api -F "image=@/root/xx.png"
+    curl -X POST "https://checkimage.querydata.org/api" -H "Content-Type: multipart/form-data" -F "image=@/root/xx.png"
 
 返回信息：
 
