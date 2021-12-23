@@ -1,10 +1,23 @@
 checkimage
 ---------------
 
-    提示：由于该接口用的人不多，又消耗服务器资源，从2021.12.16开始关闭该接口。
+    提示：由于该接口用的人不多，又消耗服务器资源，从2021.12.16开始关闭该接口，且代码已开源，有需求自己搭建。
 
 
 本项目是一个图片鉴黄`api`接口，支持`jpg`、`png`、`jpeg`格式文件，参考[nsfwjs][1]。
+
+安装步骤
+---------------
+
+自行搭建好`ndoejs`环境，使用命令：
+
+    git clone https://github.com/iiiiiii1/checkimage
+    cd checkimage
+    npm i
+    npm i -g pm2
+    pm2 start index.js --name checkimage
+
+访问地址：ip:3027，使用看下方演示。
 
 接口地址
 ---------------
